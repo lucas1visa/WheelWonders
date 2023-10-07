@@ -17,7 +17,7 @@ export default function Header() {
 
   const [header, setHeader] = useState(false);
 
-  const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState(false);
 
   const desktopMode = useMediaQuery({
     query: '( min-width:1300px)',
