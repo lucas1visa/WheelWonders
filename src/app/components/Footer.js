@@ -19,7 +19,7 @@ export default function Footer() {
               spy={true}
               className=" cursor-pointer"
             >
-              <Image src={"icons/logo.svg"} width={200} height={200} alt="" />
+              <Image src={"/icons/logo.png"} width={200} height={200} alt="" />
             </Link>
             {/* text */}
             <div className="text-secondary">

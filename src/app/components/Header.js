@@ -63,7 +63,7 @@ export default function Header() {
             className="cursor-pointer"
             
           >
-            <Image src={"/icons/logo.svg"} width={194} height={64} alt="" />
+            <Image src={"/icons/logo.png"} width={164} height={54} alt="" />
           </Link>
           {/* nav open menu */}
           <div onClick={()=>setNav(!nav)} className=" cursor-pointer xl:hidden">

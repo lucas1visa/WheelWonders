@@ -12,11 +12,11 @@ import { motion } from "framer-motion";
 //cars date
 const cars = [
   {
-    type: "Hatchback",
-    name: "Ford Focus",
-    price: 29,
+    type: "SUV",
+    name: "Fiat Pulse",
+    price: 'EL NUEVO PULSE DRIVE MANUAL',
     stars: 3.5,
-    image: "images/carSlider/car01.svg",
+    image: "/images/carSlider/car01.png",
     info: [
       {
         icon: "icons/carSlider/gearshift.svg",
@@ -74,7 +74,7 @@ const cars = [
     name: "Toyota Corolla",
     price: 29,
     stars: 3.5,
-    image: "images/carSlider/car02.svg",
+    image: "/images/carSlider/car02.png",
     info: [
       {
         icon: "icons/carSlider/gearshift.svg",
@@ -155,7 +155,7 @@ export default function CarSileder() {
                   </div>
                   <h3 className=" text-lg uppercase font-bold">{car.name}</h3>
                   <div className=" mb-10 text-accent font-semibold uppercase">
-                    {car.price}/day
+                    {car.price}
                   </div>
                 </div>
                 {/* stars */}

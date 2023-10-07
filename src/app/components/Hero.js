@@ -24,7 +24,7 @@ export default function Hero() {
               className="h1"
             >
               Explore las mejores ofertas{" "}
-              <span className="text-accent"> Globales</span> Ofertas{""}
+              <span className="text-accent"> Globales</span>
             </motion.h1>
             <motion.p
               variants={fadeIn("down", 0.4)}
@@ -76,7 +76,7 @@ export default function Hero() {
          xl:max-w-[860px] xl:max-h-[542px] xl:absolute xl:right-[80px] min-[1422px]:right-[120px] xl:top-48"
           >
             <Image
-              src={"/images/hero/car.svg"}
+              src={"/images/hero/car.png"}
               fill
               alt=""
               style={{ objectFit: "contain" }}
@@ -91,6 +91,8 @@ export default function Hero() {
           animate={{ y: 0 }}
           transition={{ ease: easeInOut }}
         >
+
+
           <Search />
         </motion.div>
       ) : (
