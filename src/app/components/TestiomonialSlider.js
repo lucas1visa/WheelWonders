@@ -62,7 +62,7 @@ export default function TestiomonialSlider() {
                   className="mb-4"
                 />
                 <div className="text-lg font-medium">{name}</div>
-                <div className="text-secondary mb-12">{job}</div>
+                <div className="text-secondary mb-14">{job}</div>
               </div>
             </SwiperSlide>
           );
