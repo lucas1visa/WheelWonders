@@ -94,7 +94,7 @@ const About = () => {
                     +
                   </div>
                   <div className=" uppercase text-[13px] font-semibold text-secondary">
-                  Puntos de alquiler y compras <br /> De automóviles
+                  Ventas <br />Globales
                   </div>
                 </div>
                 {/* repair points */}

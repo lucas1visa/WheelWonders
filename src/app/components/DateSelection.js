@@ -31,7 +31,7 @@ export default function DateSelection() {
         <Menu.Button className=" dropdown-btn w-full h-full flex flex-col justify-center items-center xl:items-start xl:pl-8">
           <div className=" flex flex-col xl:flex-row items-center xl:gap-x-2 gap-y-2 xl:gap-y-0">
             <FaCalendarAlt className="text-accent" />
-            <div className="text-[15px] uppercase font-bold ">Select Date  </div>
+            <div className="text-[15px] uppercase font-bold ">Seleccionar fecha</div>
             </div>
             <div className="flex items-center gap-x-3 xl:ml-6">
             <div>
