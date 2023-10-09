@@ -49,7 +49,7 @@ const About = () => {
                 viewport={{ once: false, amount: 0.6 }}
                 className="h2"
               >
-                Car services simplified.
+                Servicios automotrices
               </motion.h2>
               <motion.p
                 variants={fadeIn("up", 0.6)}
@@ -58,9 +58,10 @@ const About = () => {
                 viewport={{ once: false, amount: 0.6 }}
                 className="mb-[42px] max-w-md"
               >
-                Rean, choose, and repair with ease. Our convenient locations,
-                diverse car types, and reliable repair points ensuyure a
-                seamless car experience .
+                Compra, elige, selecciona y repara con facilidad. Nuestras
+                ubicaciones convenientes, variedad de tipos de automóviles y
+                puntos de reparación confiables garantizan una experiencia
+                automovilística sin complicaciones.
               </motion.p>
               {/* stats */}
               <motion.div
@@ -80,7 +81,7 @@ const About = () => {
                     +
                   </div>
                   <div className=" uppercase text-[13px] font-semibold text-secondary">
-                    Car <br /> types
+                  Tipos de <br /> automóviles
                   </div>
                 </div>
                 {/* rental rental */}
@@ -93,7 +94,7 @@ const About = () => {
                     +
                   </div>
                   <div className=" uppercase text-[13px] font-semibold text-secondary">
-                    rental <br /> outlets
+                  Puntos de alquiler y compras <br /> De automóviles
                   </div>
                 </div>
                 {/* repair points */}
@@ -106,7 +107,7 @@ const About = () => {
                     +
                   </div>
                   <div className=" uppercase text-[13px] font-semibold text-secondary">
-                    repair <br /> pints
+                  Puntos de <br /> reparación
                   </div>
                 </div>
                 {/* btn */}
@@ -118,7 +119,7 @@ const About = () => {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.6 }}
               >
-                See all cars
+                Ver todos los automóviles
               </motion.button>
             </div>
           </div>

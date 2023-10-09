@@ -16,17 +16,17 @@ import { FaQuoteLeft } from "react-icons/fa";
 const testimonialData = [
   {
     message:
-      "They truly exeeded my expetations and made my car rental experience a delight",
+      "Realmente superaron mis expectativas y convirtieron mi experiencia de alquiler de automóviles en un verdadero placer.",
     avatar: "/images/testimonial/avatar.png",
     name: "Jane Doe",
-    job: "Photographer & Videographer",
+    job: "Fotógrafo",
   },
   {
     message:
-      "They truly exeeded my expetations and made my car rental experience a delight",
+      "Compré un auto en este sitio y fue lo mejor que me ha pasado",
     avatar: "/images/testimonial/avatar.png",
     name: "Jane Doe",
-    job: "Photographer & Videographer",
+    job: "Videógrafo",
   },
 ];
 export default function TestiomonialSlider() {

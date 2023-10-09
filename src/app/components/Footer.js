@@ -44,52 +44,52 @@ export default function Footer() {
           {/* links */}
           <div className="flex-1 flex flex-col xl:items-center" >
             <div className="flex-1 flex flex-col xl:items-center">
-              <h3 className="h3 font-bold mb-8">Company</h3>
+              <h3 className="h3 font-bold mb-8">Ubicación</h3>
               <ul className=" flex flex-col gap-y-4 font-semibold">
                 <li>
                   <a href="#">Salta</a>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
+                  <a href="#">Buenos Aires</a>
                 </li>
                 <li>
-                  <a href="#">Mobiles</a>
+                  <a href="#">Corrientes</a>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <a href="#">Chaco</a>
                 </li>
                 <li>
-                  <a href="#">How we work</a>
+                  <a href="#">Cómo trabajamos</a>
                 </li>
               </ul>
             </div>
           </div>
           {/* program */}
           <div className="flex-1">
-            <h3 className="h3 font-bold mb-8">Working Hours</h3>
+            <h3 className="h3 font-bold mb-8">Horario de trabajo</h3>
           <div className="flex flex-col gap-y-4">
             <div className="flex gap-x-2">
-              <div className="text-secondary">Mon-Fri:</div>
+              <div className="text-secondary">Lun-Vie:</div>
               <div className=" font-semibold">09:00AM - 09:00PM</div>
             </div>
             <div className="flex gap-x-2">
-              <div className=" text-secondary">Sat:</div>
+              <div className=" text-secondary">Sab:</div>
               <div className=" font-semibold">09:00AM - 07:00PM</div>
             </div>
             <div className="flex gap-x-2">
-              <div className=" text-secondary">Sun:</div>
-              <div className=" font-semibold">Closed</div>
+              <div className=" text-secondary">Dom:</div>
+              <div className=" font-semibold">Cerrado</div>
             </div>
             </div>
           </div>
            {/* newsletter */}
            <div className="flex-1">
-            <h3 className="h3 font-bold mb-8">Newsletter</h3>
+            <h3 className="h3 font-bold mb-8">Correo informativo</h3>
             <div className=" mb-9 text-secondary">Laborum officia cupidatat elit nulla esse enim enim pariatur aliquip velit elit.</div> 
              {/*form */}
              <form className="flex gap-x-2 h-14">
-                <input type="text" placeholder="Your email" className=" outline-none bg-white h-full border rounded-lg pl-4 focus:border-accent"></input>
-                <button type="submit" className=" btn btn-sm btn-accent  w-24">Submit</button>
+                <input type="text" placeholder="Tu email" className=" outline-none bg-white h-full border rounded-lg pl-4 focus:border-accent"></input>
+                <button type="submit" className=" btn btn-sm btn-accent  w-24">Enviar</button>
              </form>
           </div>
         </div>

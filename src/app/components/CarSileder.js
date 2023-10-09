@@ -43,7 +43,7 @@ const cars = [
   {
     type: "SUV",
     name: "Honda CR-V",
-    price: 35,
+    price: 'EL NUEVO PULSE DRIVE MANUAL',
     stars: 4.7,
     image: "images/carSlider/car03.svg",
     info: [
@@ -72,7 +72,7 @@ const cars = [
   {
     type: "Sedan",
     name: "Toyota Corolla",
-    price: 29,
+    price: 'EL NUEVO PULSE DRIVE MANUAL',
     stars: 3.5,
     image: "/images/carSlider/car02.png",
     info: [
@@ -101,7 +101,7 @@ const cars = [
   {
     type: "Convertible",
     name: "Mazda MX-5",
-    price: 32,
+    price: 'EL NUEVO PULSE DRIVE MANUAL',
     stars: 4.9,
     image: "images/carSlider/car03.svg",
     info: [
@@ -178,7 +178,7 @@ export default function CarSileder() {
                   </div>
                 ))}
               </div>
-              <button className="btn btn-accent btn-lg">See details</button>
+              <button className="btn btn-accent btn-lg">Ver detalles</button>
             </div>
           </SwiperSlide>
         ))}

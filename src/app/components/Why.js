@@ -19,7 +19,7 @@ export default function Why() {
           viewport={{ once: false, amount: 0.6 }}
           className="h2 text-center"
         >
-          Unmatched excellence and customer satisfaction
+          Excelencia inigualable y satisfacción del cliente
         </motion.h2>
         <motion.p
           className=" max-w-[680px] text-center mx-auto mb-2"
@@ -28,9 +28,10 @@ export default function Why() {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.6 }}
         >
-          Our dedication to providing exceptional services sets us apart from
-          the competition. From the moment you engage with us, we strive to
-          exceed your expectations in every interaction.
+          Nuestra dedicación a brindar servicios excepcionales a un excelente
+          precio nos distingue de la competencia. Desde el momento en que
+          interactúas con nosotros, nos esforzamos por superar tus expectativas
+          en cada interacción
         </motion.p>
         {/* Car image */}
         <motion.div
@@ -53,28 +54,32 @@ export default function Why() {
           {/* item1 */}
           <div className="flex flex-col items-center text-center max-w-[160px] xl:max-w-none p-2 xl:p-0">
             <MdKey className="text-[38px] text-accent mb-4" />
-            <h3 className="h3">Rent simply and quickly</h3>
+            <h3 className="h3">
+              Compra o alquila de manera sencilla y rápida.
+            </h3>
             <p className="hidden xl:flex">
-              we prioritize your need and we go above and beyond to ensure your
-              experience with us is nothing short of outstanding.
+              Priorizamos tus necesidades y hacemos todo lo posible para
+              asegurarnos de que tu experiencia con nosotros sea excepcional en
+              todos los aspectos
             </p>
           </div>
           {/* item2 */}
           <div className="flex flex-col items-center text-center max-w-[160px] xl:max-w-none p-2 xl:p-0">
             <MdTrendingUp className="text-[38px] text-accent mb-4" />
-            <h3 className="h3">Modern & well maintained vehicles</h3>
+            <h3 className="h3">Vehículos modernos</h3>
             <p className="hidden xl:flex">
-              we prioritize your need and we go above and beyond to ensure your
-              experience with us is nothing short of outstanding.
+              Contamos con una amplia gama de vehículos modernos que destacan
+              por su estilo y comodidad. Nuestra flota está diseñada para
+              satisfacer tus necesidades de movilidad con la última tecnología y
+              un mantenimiento excepcional.
             </p>
           </div>
           {/* item3 */}
           <div className="flex flex-col items-center text-center max-w-[160px] xl:max-w-none p-2 xl:p-0">
             <MdHandshake className="text-[38px] text-accent mb-4" />
-            <h3 className="h3">Prompt and flexible services</h3>
+            <h3 className="h3">Servicios rápidos y flexibles</h3>
             <p className="hidden xl:flex">
-              we prioritize your need and we go above and beyond to ensure your
-              experience with us is nothing short of outstanding.
+            Nuestros servicios de auto son rápidos y flexibles, adaptándose a tu horario y necesidades
             </p>
           </div>
         </motion.div>

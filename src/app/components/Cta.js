@@ -21,7 +21,7 @@ export default function Cta() {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.6 }}
               >
-                Downland our App now and hit the road with ease
+                ¡Descarga nuestra aplicación ahora y sal a la carretera con facilidad!
               </motion.h2>
               <motion.p
               variants={fadeIn("right", 0.4)}
@@ -29,8 +29,7 @@ export default function Cta() {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.6 }}
               className="mb-10">
-                Cupidatat sint sint enim cupidatat cupidatat eu voluptate id
-                mollit labore aliqua elit sit.
+                Contáctanos y con gusto resolveremos todas tus dudas. ¡Escríbenos!
               </motion.p>
               {/* btn */}
               <motion.div
