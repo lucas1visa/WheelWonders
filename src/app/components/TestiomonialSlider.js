@@ -16,7 +16,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 const testimonialData = [
   {
     message:
-      "Realmente superaron mis expectativas y convirtieron mi experiencia de alquiler de automóviles en un verdadero placer.",
+      "Realmente superaron mis expectativas y es un verdadero placer.",
     avatar: "/images/testimonial/avatar.png",
     name: "Jane Doe",
     job: "Fotógrafo",
